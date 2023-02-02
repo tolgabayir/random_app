@@ -43,7 +43,9 @@ class RegisterPage extends GetView<RegisterPageController> {
             ElevatedButton(
               onPressed: controller.register,
               child: const Text("Kaydol"),
+              
             ),
+            
           ],
         ),
       ),

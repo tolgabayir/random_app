@@ -2,6 +2,7 @@ import 'package:get/get.dart';
 import 'package:random_app/binding/home_page_binding.dart';
 import 'package:random_app/binding/login_page_binding.dart';
 import 'package:random_app/binding/register_page_binding.dart';
+import 'package:random_app/binding/splash_page_binding.dart';
 import 'package:random_app/routes/routes.dart';
 import 'package:random_app/view/home/home_page.dart';
 import 'package:random_app/view/splash/splash_page.dart';
@@ -14,6 +15,7 @@ abstract class AppPages {
     GetPage(
       name: Routes.INITIAL,
       page: () => const SplashPage(),
+      binding: SplashPageBinding(),
     ),
     GetPage(
       name: Routes.HOME,
