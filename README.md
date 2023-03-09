@@ -1,6 +1,8 @@
-# random_app
+# Todo App
 
-Create random lists for everything
+A basic todo app.
+
+The point is understanding GetX and trying Clean architecture.
 
 ## Getting Started
 
