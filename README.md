@@ -1,6 +1,6 @@
 # Todo App
 
-A basic todo app.
+A basic ToDo app.
 
 The point is understanding GetX and trying Clean architecture.
 
